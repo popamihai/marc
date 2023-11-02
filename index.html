@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Invitație Botez - Marc</title>
+    <style>
+        body {
+            font-family: 'Great Vibes', cursive;
+            text-align: center;
+            padding: 20px;
+            margin: 30px; /* Spațiu pentru a afișa rama pe toate laturile */
+
+            /* Gradient albastru */
+            background-image: linear-gradient(45deg, #a2d0ff, #5c89c7);
+
+
+        }
+
+        #marc-pic {
+          width: 150px;       /* Poți ajusta lățimea după cum dorești */
+          height: 150px;      /* Înălțimea ar trebui să fie aceeași cu lățimea pentru a obține un cerc perfect */
+          border-radius: 50%; /* Acest stil face ca imaginea să fie un cerc */
+          margin: 20px auto;  /* Centrează imaginea pe orizontală și adaugă o mică distanță deasupra și dedesubt */
+          display: block;     /* Asigură-te că imaginea este tratată ca un bloc pentru centrarea pe orizontală */
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #222222;
+        }
+
+        p {
+            font-size: 30px;
+            line-height: 1.5;
+            color: #111;
+        }
+
+        html, body {
+    margin: 0;
+    padding: 0;
+}
+
+        .wrapper {
+    padding: 20px; /* spațiu în interiorul ramei */
+    margin: 0; /* pentru a centra conținutul pe pagină */
+
+    /* Atribuie imaginea cu pattern ca fundal */
+    background-image: url('wood-pattern.png');
+    background-repeat: repeat;
+    /* Crează efectul de "adâncime" al ramei cu o umbră interioară */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+
+    /* Adaugă o bordură solidă pentru a defini rama */
+    border: 15px groove rgba(0, 0, 139, 0.8); /* Un albastru închis cu o oarecare transparență */
+}
+
+        .location-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .location {
+            width: 100%;
+            max-width: 45%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 10px;
+            background-size: cover;
+            background-blend-mode: multiply;
+            background-color: rgba(255, 255, 255, 0.5); /* Un alb semitransparent pentru a putea citi textul */
+        }
+
+        @media (max-width: 768px) {
+          .location {
+            max-width: 100%;
+          }
+        }
+
+        a {
+            text-decoration: underline;
+            color: #3498db;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #2e80b7;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+<h1>Botezul</h1>
+<h1>lui</h1>
+<h1>Marc-Mihai</h1>
+<img id="marc-pic" src="marc.jpg" alt="Poza Marc">
+<p>Cu inimi deschise și pline de bucurie, Mihail și Nadia vă invită să fiți alături de noi în ziua botezului dragului nostru Marc-Mihai. Împreună cu nașii Teo & Nandi și Catalin & Oana, vrem să transformăm această zi într-o amintire specială.</p>
+
+<div class="location-container">
+
+    <div class="location">
+        <h2>Slujba de Botez</h2>
+        <p>Ne vedem la bisericuța de lemn din Complexul Hașdeu, unde ne vom uni gândurile și inimile în această clipă sfântă.</p>
+        <h3>Ora 14:00</h3>
+        <a href="maps://?q=Strada+Bogdan+Petriceicu+Hasdeu+45, Cluj-Napoca+400394" target="_blank">Cum ajung?</a>
+    </div>
+
+    <div class="location">
+        <h2>Sărbătoarea Continuă</h2>
+        <p>Mergem la Restaurantul Panoramic Cetățuie să luăm masa, într-o atmosferă caldă și plăcută.</p>
+        <h3>Ora 15:30</h3>
+        <a href="maps://?q=Panoramic+cetatuie+cluj" target="_blank">Cum ajung?</a>
+    </div>
+
+</div>
+<p>Vă mulțumim că ne sunteți alături și că alegeți să marcați împreună cu noi primii pași ai lui Marc-Mihai în lumea creștinătății.</p>
+<p>Cu toată căldura,</p>
+<h3>Nadia și Mihail</h3>
+</div>
+</body>
+</html>
